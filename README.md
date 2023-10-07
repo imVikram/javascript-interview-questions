@@ -175,6 +175,26 @@ For example, suppose there are three components namely component1, component2, c
 
 2. Capturing: Event capturing is a type of event propagation where the event is first captured by the outermost element, and then successively triggers on the descendants (children) of the target element in the same nesting hierarchy till it reaches the innermost DOM element.
 
+# Differences between forEach() and map() methods
+
+
+1-The returning value
+
+The first difference between map() and forEach() is the returning value. The forEach() method returns undefined and map() returns a new array with the transformed elements. Even if they do the same job, the returning value remains different.
+
+2-Ability to chain other methods
+
+The second difference between these array methods is the fact that map() is chainable. This means that you can attach reduce(), sort(), filter() and so on after performing a map() method on an array.
+That's something you can't do with forEach() because, as you might guess, it returns undefined.
+
+3-Mutability
+
+forEach() does not mutate the array on which it is called. (However, callback may do so).
+map() does not mutate the array on which it is called (although callback, if invoked, may do so).
+
+
+
+
 
 
 
