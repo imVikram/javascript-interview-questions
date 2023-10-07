@@ -162,7 +162,18 @@ var empDetailsDeepCopy = {
   expertise: empDetails.expertise,
 };
 ```
-Now if you change empDetailsDeepCopy.name, it will only affect empDetailsDeepCopy & not empDetails
+Now if you change empDetailsDeepCopy.name, it will only affect empDetailsDeepCopy & not empDetails.
+
+
+# What is Event propagation, capturing, bubbling?
+
+Event Propagation determines in which order the elements receive the event. There are two ways to handle this event propagation order of HTML DOM is Event Bubbling and Event Capturing.
+
+For example, suppose there are three components namely component1, component2, component3. Inside these components, we attached the onClickEventListener event handlers. Now when we click on component3 the event handler for all the three components will be executed. Now here the question is in which order the event will execute. Now at this point event bubbling and capturing comes into the picture.
+
+1. Bubbling: Event bubbling is a type of event propagation where the event first triggers on the innermost target element, and then successively triggers on the ancestors (parents) of the target element in the same nesting hierarchy till it reaches the outermost DOM element.
+
+2. Capturing: Event capturing is a type of event propagation where the event is first captured by the outermost element, and then successively triggers on the descendants (children) of the target element in the same nesting hierarchy till it reaches the innermost DOM element.
 
 
 
