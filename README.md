@@ -91,4 +91,20 @@ setTimeout(function () {
 ```
 
 
+# Explain setInterval
+
+The setInterval() method is used to call a function or evaluate an expression at specified intervals (in milliseconds). For example, let's log a message after 3 seconds using setInterval method
+
+
+## Example:
+
+```javascript
+setInterval(function () {
+  console.log("Good morning vikram ji");
+}, 3000);
+```
+
+
+
+
 
