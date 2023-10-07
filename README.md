@@ -77,4 +77,18 @@ inviteEmployee1("Hello", "How are you?"); // Hello Manvik Chaudhary, How are you
 
 ```
 
+# Explain setTimeOut
+
+The setTimeout() method is used to call a function or evaluate an expression after a specified number of milliseconds. For example, let's log a message after 3 seconds using setTimeout method
+
+
+## Example:
+
+```javascript
+setTimeout(function () {
+  console.log("Hi Vikram");
+}, 3000);
+```
+
+
 
