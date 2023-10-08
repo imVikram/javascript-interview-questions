@@ -3,6 +3,14 @@
 
 Updated JS interview questions list
 
+| No. | Questions |
+|---- | ---------|
+|1    | [How do we create objects in JavaScript?	](# )|
+|2    | [Difference between Call, Apply and Bind?	](# )|
+|3    | [Explain setTimeOut	](# )|
+|4    | [Explain setInterval	](# )|
+|5    | [Explain the difference between Shallow and Deep copy	](# )|
+
 
 ## How do we create objects in JavaScript?
 We can create an empty object is using the Object constructor.
