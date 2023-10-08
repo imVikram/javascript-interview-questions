@@ -7,11 +7,11 @@ Updated JS interview questions list
 |---- | ---------|
 |1    | [How do we create objects in JavaScript?	](#how-do-we-create-objects-in-javascript )|
 |2    | [Difference between Call, Apply and Bind?	](#difference-between-call-apply-and-bind )|
-|3    | [Explain setTimeOut	](# )|
-|4    | [Explain setInterval	](# )|
-|5    | [Explain the difference between Shallow and Deep copy	](# )|
-|6    | [What is Event propagation, capturing, bubbling?	](# )|
-|7    | [Differences between forEach() and map() methods	](# )|
+|3    | [Explain setTimeOut	](#explain-settimeout)|
+|4    | [Explain setInterval	](#explain-setinterval)|
+|5    | [Explain the difference between Shallow and Deep copy	](#explain-the-difference-between-shallow-and-deep-copy)|
+|6    | [What is Event propagation, capturing, bubbling?	](#what-is-event-propagation-capturing-bubbling)|
+|7    | [Differences between forEach() and map() methods	](#differences-between-foreach-and-map-methods)|
 
 
 ## How do we create objects in JavaScript?
